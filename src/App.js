@@ -11,7 +11,7 @@ export default function App() {
   return (
     <div
       style={{
-        backgroundColor: `${hex}`,
+        backgroundColor: hex,
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
