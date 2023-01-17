@@ -20,15 +20,13 @@ export default function App() {
       }}
     >
       <h1 style={{ fontSize: '48px', color: 'black' }}>
-        Generated Color {hex}
-      </h1>
+        Generated Color: {hex}
+      </h1>{' '}
       <button
         onClick={randomHex}
         style={{
-          margin: '18px 13px',
-          padding: '6px',
-          fontSize: '20px',
           border: '1px solid black',
+          boxShadow: 'black',
         }}
       >
         Generate
