@@ -19,10 +19,11 @@ export default function App() {
           alignItems: 'center',
           height: '50vh',
           boxShadow: '1px 2px 3px #F4AAB9',
+          fontSize: '48px',
+          color: 'black',
+          textAlign: 'center',
         }}
-      />
-
-      <div style={{ fontSize: '48px', color: 'black', textAlign: 'center' }}>
+      >
         Generated Color: {hex}
       </div>
 
