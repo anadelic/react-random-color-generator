@@ -8,6 +8,8 @@ const reportWebVitals = (onPerfEntry) => {
         getLCP(onPerfEntry);
         getTTFB(onPerfEntry);
       })
-      .catch((error) => console.log(error));
+      .catch((error) => console.error(error));
   }
 };
+
+export default reportWebVitals;
