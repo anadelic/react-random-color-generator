@@ -20,13 +20,11 @@ export default function App() {
           height: '50vh',
           boxShadow: '1px 2px 3px #F4AAB9',
         }}
-      >
-        {' '}
-      </div>
+      />
 
-      <h1 style={{ fontSize: '48px', color: 'black', textAlign: 'center' }}>
+      <div style={{ fontSize: '48px', color: 'black', textAlign: 'center' }}>
         Generated Color: {hex}
-      </h1>
+      </div>
 
       <div
         style={{
