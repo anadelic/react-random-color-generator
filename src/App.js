@@ -9,29 +9,41 @@ export default function App() {
   };
 
   return (
-    <div
-      style={{
-        backgroundColor: hex,
-        transition: '2s',
-        display: ' flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '100vh',
-      }}
-    >
-      {' '}
-      <h1 style={{ fontSize: '48px', color: 'black' }}>
-        Generated Color: {hex}
-      </h1>{' '}
-      <button
-        onClick={randomHex}
+    <>
+      <div
         style={{
-          border: '1px solid black',
-          boxShadow: 'black',
+          backgroundColor: hex,
+          transition: '2s',
+          display: ' flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          height: '50vh',
+          boxShadow: '1px 2px 3px #F4AAB9',
         }}
       >
-        Generate
-      </button>
-    </div>
+        <h1 style={{ fontSize: '48px', color: 'black' }}>
+          Generated Color: {hex}
+        </h1>
+      </div>
+      <div
+        style={{
+          transition: '2s',
+          display: ' flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >
+        <button
+          onClick={randomHex}
+          style={{
+            border: '1px solid black',
+            margin: '20px',
+            padding: '8px 4px',
+          }}
+        >
+          Generate
+        </button>
+      </div>
+    </>
   );
 }
