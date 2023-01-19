@@ -27,7 +27,7 @@ export default function App() {
           fontSize: '48px',
           color: 'black',
           textAlign: 'center',
-          margin: '1em'
+          margin: '1em',
         }}
       >
         Generated Color: {hex}
