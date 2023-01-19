@@ -31,9 +31,7 @@ export default function App() {
       >
         Generated Color: {hex}
       </div>
-
-
-         <button
+      <button
           onClick={randomHex}
           style={{
               backgroundColor: '#36A9AE',
@@ -49,16 +47,6 @@ export default function App() {
               outline: '0',
               padding: '11px 15px 12px',
               textAlign: 'center',
-
-
-
-
-}} >
-
-          Generate
-        </button>
+}} > Generate </button>
         </div>
-
-
-  );
-}
+        );}
